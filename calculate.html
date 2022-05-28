@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <bold>
+            <h3>CALCULATOR</h3>
+        </bold><br>
+        <label for="">PRINCIPAL</label>
+        <br>
+        <input type="number" placeholder="enter the principal" id="p">
+        <br><br>
+
+        <label for="">TIME</label>
+        <br>
+
+        <input type="number" placeholder="enter the time" id="t">
+        <br><br>
+
+        <label for="">RATE(%)</label>
+        <br>
+
+        <input type="number" placeholder="enter the rate" id="r">
+        <br><br>
+
+        <button onclick="answer()" class="cal">calculate</button>
+
+
+        <p> COMPOUND INTEREST : <span id="ci"></span> </p>
+        <p>COMPOUND AMOUNT : <span id="ca"></span> </p>
+        <p>HALF COMPOUND INTEREST : <span id="hci"></span> </p>
+        <p>HALF COMPOUND AMOUNT : <span id="hca"></span> </p>
+        <p>SIMPLE INTEREST : <span id="si"></span> </p>
+        <p>CI-CA : <span id="dif"></span> </p>
+   
+    </div>
+</body>
+
+</html>
